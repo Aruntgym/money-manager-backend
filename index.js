@@ -13,9 +13,10 @@ const URL = process.env.DB;
 //   })
 // );
 
-app.use(cors())
+//app.use(cors())
 
 app.use(express.json());
+app.use(cors())
 console.log(URL);
 
 // create-add inc/exp
